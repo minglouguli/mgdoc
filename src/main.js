@@ -1,12 +1,8 @@
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
+import MgDoc from './index';
 
-Vue.config.productionTip = false;
-
-new Vue({
-  router,
-  store,
-  render: (h) => h(App),
-}).$mount("#app");
+new MgDoc({
+  options: {
+    docBaseApiUrl: '/api', //文档接口前置地址
+    page: '' //页面地址
+  }
+}).run();

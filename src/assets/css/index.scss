@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.mgdoc-css {
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  //<!--修改 滚动条的 下面 的 样式-->
+  *::-webkit-scrollbar-track {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(226, 226, 226, 0.301);
+    border-radius: 5px;
+  }
+  //<!--修改 滑块 -->
+  *::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 10px;
+    background-color: #e0e5f7;
+    border-radius: 5px;
+    &:hover {
+      background-color: #cdd1e2;
+    }
+  }
+  --vs-zindex-2: 1000;
+  .ms-vs-input {
+    .vs-input {
+      width: 100%;
+    }
+  }
+  .vs-dialog {
+    max-width: none;
+  }
+}

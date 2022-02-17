@@ -1,0 +1,10 @@
+import com_0 from '@/components/mgdoc-env.vue';
+import com_1 from '@/components/mgdoc-req-example.vue';
+import com_2 from '@/components/mgdoc-req-param-arr.vue';
+import com_3 from '@/components/mgdoc-req-param-obj.vue';
+import com_4 from '@/components/mgdoc-req-param-prop.vue';
+import com_5 from '@/components/mgdoc-req-param-value.vue';
+import com_6 from '@/components/mgdoc-req-param-view.vue';
+import com_7 from '@/components/mgdoc-req.vue';
+import com_8 from '@/components/vs-textarea.vue';
+export default [com_0, com_1, com_2, com_3, com_4, com_5, com_6, com_7, com_8];
